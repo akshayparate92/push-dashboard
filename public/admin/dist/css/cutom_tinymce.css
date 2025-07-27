@@ -1,0 +1,14 @@
+.mce-content-body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black !important;
+    background-color: white;
+}
+
+.mce-content-body h1 {
+    color: #ff0000;
+}
+
+.mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before{
+    color: white !important;
+}
